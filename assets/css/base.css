@@ -1,0 +1,54 @@
+/*
+    Document   : nwstyles.css
+    Created on : 8/07/2012
+    Last edited: 27/3/2014
+    Author     : RJL, AKM
+    Description:
+        Stylesheet for use with the nwproductbrowser family.
+*/
+
+html {
+  color: cadetblue;  
+  background-color: aliceblue;
+}
+
+html, body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+div.combobox {
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+
+div.combobox,
+select, 
+table.details-table, 
+table.details-table td, 
+table.details-table td input.text,
+table.details-table td input.date,
+table.details-table td textarea {
+    width: 100%;
+}
+
+table td {
+    padding: 0.2rem;
+    vertical-align: top;
+}
+
+table th {
+    text-align: left;
+    vertical-align: top;
+}
+
+textarea {
+    resize: none;
+}
+
+.error {
+    color: red;
+}
+
+.logout {
+    text-align: right;
+}
