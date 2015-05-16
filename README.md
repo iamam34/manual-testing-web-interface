@@ -17,7 +17,7 @@ At this stage, visiting the website through your browser should present a login 
 
 ### Authentication
 
-> NOTE: Do not edit the `application/.htaccess` file. It comes with CodeIgniter and need not be modified. The following instructions refer to the `.htaccess` file in the *root directory* of the site.
+> Do *not* edit the `application/.htaccess` file. It comes with CodeIgniter and need not be modified. The following instructions refer to the `.htaccess` file in the *root directory* of the site.
 
 If you're happy to allow anyone with an internet connection to create, read, update and delete your manual tests and test results, delete the `.htaccess` file in the root directory of the site.
 
