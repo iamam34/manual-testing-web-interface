@@ -21,7 +21,7 @@ At this stage, visiting the website through your browser should present a login 
 
 If you're happy to allow anyone with an internet connection to create, read, update and delete your manual tests and test results, delete the `.htaccess` file in the root directory of the site.
 
-Otherwise, if you'd like to use a rudimentary login system (bundled with the Apache server) to prevent unauthorised access to the site, use the `htpasswd` commandline utility (or http://www.htpasswdgenerator.net) to generate a `.htpasswd` file. Move it to the root directory of the site (ie. *sibling* to the `application` directory). The `.htaccess` file in this repository is already set up to use it.
+Otherwise, if you'd like to use a rudimentary login system (bundled with the Apache server) to prevent unauthorised access to the site, use the `htpasswd` commandline utility (or http://www.htpasswdgenerator.net) to generate a `.htpasswd` file. Move it to the root directory of the site (ie. *sibling* to the `application` directory). Edit the `.htaccess` file to point to the `.htpasswd` file (currently `var/www/html/.htpasswd`).
 
 At this stage, visiting the website through your browser should present a login dialog, and your recently generated username-password combination should allow you to see the site. It will probably give you a "500: Internal Server Error" because the website hasn't been configured to access the backend database yet... never fear!
 
