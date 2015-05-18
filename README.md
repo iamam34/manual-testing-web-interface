@@ -26,7 +26,7 @@ Otherwise, if you'd like to use a rudimentary login system (bundled with the Apa
 At this stage, visiting the website through your browser should present a login dialog, and your recently generated username-password combination should allow you to see the site. It will probably give you a "500: Internal Server Error" because the website hasn't been configured to access the backend database yet... never fear!
 
 ### Database Configuration
-The web interface is an *interface* to a backend database. This means you must have a database somewhere. The database must include a table called Tests and a table called TestResults. The column names in these tables must match the following specification exactly, but the datatypes are only recommendations.
+The web interface is an *interface* to a backend database. This means you must have a database somewhere. The database must include a table called Tests and a table called TestResults. The column names in these tables must match the following specification exactly, but the datatypes are only recommendations. In both tables, `id` is the primary key. 
 
 #### Tests
 id      | title        | steps        | expectedResult | creator     | creationDate
