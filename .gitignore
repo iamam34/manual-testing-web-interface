@@ -2,6 +2,8 @@
 application/config/database.php
 .htpasswd
 
+nbproject
+
 # GitHub's suggestions for CodeIgniter
 */config/development
 */logs/log-*.php
