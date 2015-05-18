@@ -29,14 +29,14 @@ At this stage, visiting the website through your browser should present a login 
 The web interface is an *interface* to a backend database. This means you must have a database somewhere. The database must include a table called Tests and a table called TestResults. The column names in these tables must match the following specification exactly, but the datatypes are only recommendations.
 
 #### Tests
-id  | title        | steps        | expectedResult | creator     | creationDate
-:---|:-------------|:-------------|:---------------|:------------|:------------
-int | varchar(150) | varchar(150) | varchar(150)   | varchar(50) | date
+id      | title        | steps        | expectedResult | creator     | creationDate
+:-------|:-------------|:-------------|:---------------|:------------|:------------
+int(11) | varchar(300) | varchar(300) | varchar(300)   | varchar(15) | date
 
 #### TestResults
-id  | testId | date | tester      | operatingSystem | build        | result          | comment
-:---|:-------|:-----|:------------|:----------------|:-------------|:----------------|:------
-int | int    | date | varchar(50) | varchar(150)    | varchar(150) | enum(PASS,FAIL) | varchar(150)
+id      | testId  | date | tester      | operatingSystem | build        | result              | comment
+:-------|:--------|:-----|:------------|:----------------|:-------------|:--------------------|:------------
+int(11) | int(11) | date | varchar(15) | varchar(30)     | varchar(30)  | enum('pass','fail') | varchar(200)
 
 #### CodeIgniter Database Configuration
 Now you need to tell CodeIgniter how to connect to this database.
