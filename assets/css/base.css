@@ -1,14 +1,14 @@
 /*
-    Document   : nwstyles.css
+    Document   : base.css
     Created on : 8/07/2012
-    Last edited: 27/3/2014
+    Last edited: 18/5/2014
     Author     : RJL, AKM
     Description:
-        Stylesheet for use with the nwproductbrowser family.
+        Stylesheet originally for use with the nwproductbrowser family.
 */
 
 html {
-  color: cadetblue;  
+  color: black;
   background-color: aliceblue;
 }
 
@@ -22,9 +22,9 @@ div.combobox {
 }
 
 div.combobox,
-select, 
-table.details-table, 
-table.details-table td, 
+select,
+table.details-table,
+table.details-table td,
 table.details-table td input.text,
 table.details-table td input.date,
 table.details-table td textarea {

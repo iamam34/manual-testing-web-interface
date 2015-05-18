@@ -3,13 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/views/templates/master.php</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/models/result.php</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/views/pages/tests.php</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/config/config.php</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/controllers/tests.php</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/assets/css/base.css</file>
-            <file>file:/home/amy/Uni/15S1/SENG302/302/application/models/test.php</file>
+            <file>file:/home/cosc/student/akm96/public_html/302/application/views/templates/master.php</file>
+            <file>file:/home/cosc/student/akm96/public_html/302/assets/css/base.css</file>
+            <file>file:/home/cosc/student/akm96/public_html/302/application/config/routes.php</file>
         </group>
     </open-files>
 </project-private>

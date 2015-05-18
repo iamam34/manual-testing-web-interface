@@ -1,1 +1,6 @@
-Deny from all
+# from http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html
+# from https://github.com/riwakawebsitedesigns/htaccess_for_codeigniter/blob/master/htaccess_example_7/.htaccess 
+AuthName "SENG302 Acceptance Tests" 
+AuthType Basic
+AuthUserFile /var/www/html/.htpasswd
+Require valid-user 
